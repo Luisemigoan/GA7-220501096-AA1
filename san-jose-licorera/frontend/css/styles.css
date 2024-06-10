@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input, form select, form button {
+  display: block;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.product input[type="checkbox"] {
+  float: left;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main{
+  flex:1;
+  margin: 0; 
+  padding: 0; 
+  border: none;
+}
+
+.welcome-container {
+  max-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; 
+  padding: 0; 
+}
+
+.welcome-image {
+  width: 100%; 
+  height: auto; 
+  max-height: calc(100vh - 140px); 
+  margin: 0; 
+  padding: 0; 
+  border: none; 
+}
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ventas - San José Licorera</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Licores San José<br>
+    Ventas</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="admin.html">Inventario</a></li>
+        <li><a href="sales.html">Ventas</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Realizar Venta</h2>
+    <form id="addSaleForm">
+      <select id="tableNumber" required>
+        <option value="">Seleccione una mesa</option>
+        <option value="1">Mesa 1</option>
+        <option value="2">Mesa 2</option>
+        <option value="3">Mesa 3</option>
+        <option value="4">Mesa 4</option>
+      </select>
+      <input type="text" id="productSearch" placeholder="Buscar producto...">
+      <div id="productSelection">
+        <!-- Productos disponibles se mostrarán aquí -->
+      </div>
+      <button type="submit">Registrar Venta</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Mesa</th>
+          <th>Productos</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="salesTableBody">
+        <!-- Ventas se añadirán aquí -->
+      </tbody>
+    </table>
+  </main>
+  <script src="js/sales.js"></script>
+</body>
+</html>
+
